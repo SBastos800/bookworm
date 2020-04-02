@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  // border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .page {
+    display: flex;
+    height: 90%;
+    width: 90%;
+    border: 2px solid #282c34;
+    
+    .navWrapper {
+      display: flex;
+      
+      height: 100%;
+      width: 20%;
+      // border: 2px solid green;
+      background-color: #282c34;
+    
+    }
+
+    .rightWrapper {
+      display: flex;
+      flex-direction: column;
+      // border: 2px solid red;
+      height: 100%;
+      width: 100%;
+
+      .appHeader {
+        height: 10%;
+        width: 100%;
+        background-color: #282c34;
+        display: flex;
+        text-align: center;
+       
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        // border: 2px solid blue;
+      }
+      
+      
+      
+      .bookListWrapper {
+        display: flex;
+       
+      
+        height: 90%;
+        width: 100%;
+        // border: 2px solid pink;
+      
+      
+      }
+
+    }
+    
+    
+  
+}
+
+
+ 
+}
+
+
+
+

@@ -1,0 +1,28 @@
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 2px solid black;
+    height: 200px;
+    width: 30%;
+
+    .textWrap {
+        display: flex;
+        flex-direction: column;
+        // border: 2px solid blue;
+        height: 65px;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .image {
+        // border: 2px solid green;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+}
+
