@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import styles from "./Book.module.scss";
 
 class BookComponent extends Component {
-
     render() {
-
         return (
             <article className={styles.book}>
                 <div className={styles.image}>
@@ -15,11 +13,9 @@ class BookComponent extends Component {
                     <p>by</p>
                     <p>{this.props.bookData.author}</p>
                     <p>Pages: {this.props.bookData.pageCount}</p>
-
                 </div>
-
             </article>
-        )
+        );
     }
 }
 

@@ -10,7 +10,6 @@
     .textWrap {
         display: flex;
         flex-direction: column;
-        // border: 2px solid blue;
         height: 65px;
         width: 100%;
         font-size: 12px;
@@ -18,11 +17,9 @@
     }
     
     .image {
-        // border: 2px solid green;
         height: 100%;
         width: 100%;
         overflow: hidden;
-    }
-    
+    } 
 }
 
