@@ -1,3 +1,11 @@
+# Bookworm
+
+This was my first react app built using firebase database. 
+
+This app was build in React. If you clone this repo down you will need to do a 'yarn install' in the terminal in order to install all of the related packages. Then, you can do a 'yarn start' to view a demo version of the app.
+
+This app is available at https://bookworm-f7f6c.firebaseapp.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
